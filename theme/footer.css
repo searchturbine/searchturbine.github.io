@@ -1,0 +1,101 @@
+footer {
+	background-color:#f2f2f2;
+	border-top:1px solid #ddd;
+	padding-top:40px;
+	padding-bottom:40px
+}
+
+footer .crumbs {
+	color:#ababab;
+	font-weight:200;
+	font-size:14px;
+	text-decoration:none
+}
+
+footer .crumbs li:after {
+	display:inline-block;
+	margin-left:10px;
+	margin-right:2px;
+	content:"⟩"
+}
+
+footer .crumbs li:last-child:after {
+	content:''
+}
+
+footer .crumbs a {
+	transition:color .5s ease;
+	color:#7d7d7d;
+	font-weight:200;
+	font-size:14px;
+	text-decoration:none
+}
+
+footer .crumbs a:first-child {
+	font-weight:300
+}
+
+footer .crumbs a:hover {
+	color:#333
+}
+
+footer .crumbs a img {
+	transition:opacity .5s ease;
+	width:20px;
+	height:20px;
+	margin-right:8px;
+	margin-top:-2px;
+	opacity:.5;
+	filter:alpha(opacity=50) /* For IE8 and earlier */;
+
+}
+
+footer .crumbs a:hover img {
+	opacity:.8;
+	filter:alpha(opacity=80) /* For IE8 and earlier */;
+
+}
+
+footer .crumbs img {
+	height:20px;
+	margin-right:5px
+}
+
+footer .crumbs {
+	margin-bottom:20px
+}
+
+footer h6 {
+	color:#333;
+	font-weight:600;
+	font-size:12px;
+	text-align:left;
+	margin-bottom:3px
+}
+
+footer ul {
+	color:#666;
+	font-weight:300;
+	font-size:12px;
+	text-align:left;
+	list-style:none;
+	margin-left:0;
+	padding-left:0;
+	margin-top:0
+}
+
+footer ul li {
+	margin-top:2px;
+	margin-left:0;
+	padding-left:0
+}
+
+footer ul li a {
+	color:#666;
+	text-decoration:none
+}
+
+footer ul li a:hover; {
+	color:#555;
+	text-decoration:underline
+}

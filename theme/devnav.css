@@ -1,0 +1,88 @@
+#devnav {
+	transition:all .6s ease;
+	position:absolute;
+	z-index:1000;
+	background-color:rgba(255,255,255,0.96);
+	height:0;
+	width:100%;
+	overflow:hidden
+}
+
+#devtoolsicon {
+	transition:all .6s ease
+}
+
+#devnav.active {
+	height:540px
+}
+
+#devtoolsicon.active {
+	-webkit-transform:rotate(450deg);
+	-moz-transform:rotate(450deg);
+	-o-transform:rotate(450deg);
+/* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1); */
+	-ms-transform:rotate(450deg);
+	transform:rotate(450deg)
+}
+
+
+#devnav h1{
+
+	text-align: center;
+}
+
+#devnav h2{
+font-size: 22px;
+text-align: center;
+margin-top:-10px;
+color:#666;
+font-weight: 300;
+margin-bottom: 25px;
+}
+
+.devitem figure {
+
+		border:1px solid #ccc;
+		background-color: #f2f2f2;
+		border-radius: 4px;
+		text-align: center;
+		vertical-align: middle;
+ height:65px;
+
+
+	 	 }
+
+	 	 .devitem figure img{
+		vertical-align: middle;
+		height:50px;
+	margin:;
+
+	 	 }
+
+	 	 .devitem figure img.small{
+
+		height:30px;
+	
+
+	 	 }
+
+	 .devitem{
+		height:190px;
+
+ 
+		overflow: hidden;
+	 }
+
+	 .devitem p {
+	margin-top: 10px;
+	text-align: left;
+	font-weight: 300;
+	color: #666;
+	font-size: 13px;
+}
+
+.devitem p strong {
+	font-weight: 600;
+	color: #000;
+	font-size: 15px;
+}

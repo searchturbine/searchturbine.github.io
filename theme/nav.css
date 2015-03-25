@@ -1,0 +1,72 @@
+#globalnav {
+	position: relative;
+	z-index: 9999;
+	height: 48px;
+	margin: 0 auto 1em;
+	background: #444;
+	background: rgba(0,0,0,0.6);
+	font-family: "Source Sans Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+	color: #ccc;
+	font-size: 16px;
+	line-height: 1.45;
+	font-weight: 100;
+	margin: 0;
+}
+
+#globalnav_holder {
+	text-align: right;
+	padding-top: 12px;
+	max-width: 980px;
+	min-width: 850px;
+	margin: auto;
+}
+
+#globalnav_holder span {
+	margin-left: 28px;
+}
+
+#globalnav_holder span a {
+	   	 	 transition: color 0.5s ease;
+	color: #fff;
+	text-decoration: none;
+}
+
+#globalnav_holder span a.active {
+		 transition: color 0.5s ease;
+	color: #ccc;
+	text-decoration: none;
+}
+
+#globalnav_holder span a.active:hover; {
+	color: #ccc;
+}
+
+#globalnav_holder span a:hover {
+	color: #ddd;
+}
+
+#globalnav_holder span.brand {
+		 transition: color 0.5s ease;
+	display: inline-block;
+	float: left;
+	font-weight: 400;
+	font-size: 17px;
+	margin-left: 0px;
+	color: #fff;
+}
+
+#globalnav_holder span.brand a img {
+		 transition: opacity 0.5s ease;
+		 
+	width: 28px;
+	height: 28px;
+	margin-right: 7px;
+	margin-top: -3px
+}
+
+
+#globalnav_holder span.brand a:hover img {
+	 transition: transform 1.5s ease;
+	opacity:0.80;
+	transform:rotate(900deg);
+}

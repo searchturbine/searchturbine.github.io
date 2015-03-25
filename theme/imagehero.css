@@ -1,0 +1,44 @@
+.image-hero {
+	background-image: url("empty.png") ;
+	height: 900px
+}
+
+.image-hero  img{
+	width:108px;height:108px;
+}
+
+
+
+.image-hero div.image-hero-text {
+	text-align: center;
+	width: 860px;
+	margin: auto;
+}
+
+.image-hero div.image-hero-text img.image-hero-icon {
+	width: 108px;
+	height: 108px;
+	margin-top: 60px;
+}
+
+.image-hero div.image-hero-text {
+	text-align: center;
+	width: 860px;
+	margin: auto;
+}
+
+.image-hero div.image-hero-text p {
+	font-weight: 200;
+	color: #fff;
+	font-size: 23px;
+	width: 850px
+}
+
+.image-hero div.image-hero-text h1 {
+	font-weight: 200;
+	margin-top: 60px;
+	margin-bottom: 45px;
+	color: #fff;
+	font-size: 60px;
+	width: 850px
+}

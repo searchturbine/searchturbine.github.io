@@ -1,0 +1,51 @@
+
+div.ataglance{
+	
+margin-top:50px;	
+}
+
+div.ataglance h2{
+font-family:"Source Sans Pro"; 
+font-weight:200; color:#000; 
+font-size:40px; 
+text-align:center;
+margin-bottom:30px;	
+}
+
+
+
+
+
+/*One Two Three*/
+
+div.spacedthirds div.col-lg-4 {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.onetwothree {
+	margin: 0;
+	height: 380px;
+	background-color: #f2f2f2;
+	padding: 40px;
+	text-align: center;
+}
+
+.onetwothree p {
+	margin-top: 30px;
+	text-align: left;
+	font-weight: 300;
+	color: #666;
+	font-size: 15px;
+}
+
+.onetwothree strong {
+	font-weight: 600;
+	color: #000;
+	font-size: 15px;
+}
+
+.onetwothree img {
+	width: 210px;
+	height: 150px
+}

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PHPWee -  The Open-Source HTML, CSS and JS Minifier for PHP : SearchTurbine</title>
+  <title>JavaScript Searchable Hashset - An Open-Source Hashset for JS and Node.js : SearchTurbine</title>
 	<link rel="icon" type="image/png" href="../theme/logo/favicon.png">
   <!-- Bootstrap -->
   <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,19 +24,22 @@
  <body>
 	 
 
+ 
+ 
 
 
+
+ 
 
 	<!--[top nav]-->
   <nav id='globalnav'>
 		<div id='globalnav_holder'>
-		<span class='brand'><a href='../'><img src="../theme/logo/searchturbine_logo.svg"  id='spin'/>SearchTurbine</a></span>
+		<span class='brand'><a href='./'> <img src="../theme/logo/searchturbine_logo.svg"  id='spin'/>Search Turbine</a></span>
 	 
 		<span><a href='#' onclick='showdevnav()' class=''><i id='devtoolsicon' class='glyphicon glyphicon-th'></i> Developer Tools</a></span>
 		</div>
 	</nav>	
-
- <nav  id='devnav'>
+<nav  id='devnav'>
 	 <div class='container'>
 
 	 	 <h1 style='margin-bottom:20px'> You can build a search engine, today.</h1>
@@ -68,6 +71,9 @@
 		</div>
 	 </nav>
 	 
+
+	 
+	 
  
 	
 	
@@ -77,18 +83,56 @@
 			<div  >
 			 <div style='text-align:center'>
 				<img class='image-hero-icon' src="../theme/logo/searchturbine_icon.svg"  >
-				<h1>PHPWee.  &nbsp;  A free, universal minifier for PHP</h1>
+				<h1>JS HashSet.  &nbsp;  A free, highly optimized hashSet class for js and Node.js</h1>
 			</div>
 				
  <br>
-				<p class='center-justified'>PHPWee is an open source minifier script for PHP.  It allows <strong>CSS</strong>, <strong>JS</strong> and <strong>HTML</strong> to be reduced in file size by up to 30% without changing its meaning.  It can even minify html code on-the-fly as php produces it.   This allows websites to load faster, and in fewer http round trips.</p> <br>
+				<p class='center-justified'>JS HashSet is a rapidly searchable implementation of HashSets for Javascript development.  It items in a HashSet can be searched for values rapidly, even when the hashsets grows to a massive size.  This gives a major performance improvement over traditional Array.inexOf lookups on large datasets.  </p> <br>
+
+				<p class='center-justified'>A HashSet is like an array, in that it holds multiple values / objects. It stores these values such that it is very easy and fast determine whether an value is existent in the set already. </p> <br>
+
 					<p class='center-justified'>
-				    PHPWee is unique  in its smart minification of HTML code.  It is <strong>HTML4</strong>, <strong>XHTML</strong> and <strong>HTML5</strong> aware and tested.  It also supports preserved whitespace for CDATA Elements such as <strong>pre</strong> <strong>textarea</strong>. It removes unneeded whitespace and comments (except IE conditional comments).
-				  </p><br>
-				  
+
+
+Hashsets are  popular in dotNet and Java applications as a very fast way for looking up (searching)the existance of a value in a dynamic data set.
+
+A  weakness of Hashsets is that they are unordered, and in some langauges can not be enumerated.  This weakness is overcome in JavaScript Hashset" with a enumerate function and also a copyToArray function.
+</p>
+<br>
+				
+				<p class='center-justified'>JS HashSet is used within the Search Turbine <a href='../'>Enterprise Search technology for Node.Js</a>.  It aids performance of the javascript search algorithms by keeping value lookup time stable, even on massive data sets.</p> <br>
+
+
+
+ <div style='text-align:center'>
+			 
+				<h2> When To Use A HashSet?</h2>
+			</div>
+
 					<p class='center-justified'>
-				    In contrast to 'bug-prone' RegEx based minifying attempts - PHPWee produces a validates and parses HTML DOM documents producing W3C compliant output wherever possible.
+				   HashSets excel when you are consistent (iterative) checking an array for the existence of an item.   By replacing the array with a hahsset, search performance can be rapidly reduced.  The larger the data set, the bigger the improvement.
+
 				  </p><br>
+		
+				
+
+			 <div style='text-align:center'>
+			 
+				<h2> Compatability</h2>
+				<p class='center-justified'>Close to universal JS compatability on modern platforms.</p>
+				
+
+				<ul>
+				<li> Internet Explorer 5-11</li>
+				<li> Node.JS</li>
+				<li> Google Chrome</li>
+				<li> FireFox</li>
+				<li> Safari</li>
+				<li>Opera</li>		
+				<li>Konqueror</li>				
+				</ul>
+				
+			</div>
 					 
 				
 			 <div style='text-align:center'>
@@ -97,30 +141,29 @@
 			</div>
 				
 				<p class='center-justified'>
-			 PHPWee has been tested on major, optimized websites the following results:
+			 JS HashSets has been tested for datasets from 1-100000 items compared to a normal linear js array.
 		 </p>
 			 
 			 <ul>
-				 <li><strong><a href='http://en.wikipedia.org/wiki/Minification_%28programming%29' >Wikipedia.com </a></strong> - a 9.38% speed and file size improvement.</li>
-					 
-			 <li><strong><a href='http://www.codeproject.com/Articles/759094/Step-by-Step-PHP-Tutorials-for-Beginners-Creating' >	  The Code Project</a></strong> - a 4.4% speed and file size improvement.</li>
-				 
-				  <li><strong><a href='https://github.com/php/php-src' >GitHub </a></strong> - a 4.8% speed and file size improvement.</li>
-					  
-					  
-					  
-  <li><strong><a href='http://www.w3schools.com/php/' >W3Schools </a></strong> - a 9.56 speed and file size improvement.</li>
+				 <li>Even for a dataset of 1 item, hashset is up to 2x faster.</li>
+				 <li>For dataSets of 100,000 items, hashset is up to 500x faster.</li>	 
 
 					
 			</ul>		 
-				<p class='center-justified'>
-			 PHPWee can reduce the load time of less optimized, smaller websites up to 30% - and can be implemented in minutes.
-		 </p>
+			 
 		 
 		 
 		 <div style='text-align:center'>
 		 
-			<img src='../assets/phpwee/phpwee-performace.png' style='border:1px solid black;margin:30px' />
+
+
+
+
+
+			<img src='../assets/js-hashset/js-search-performance-hashset.png
+' style='border:1px solid black;margin:30px' alt='js hashset search performance graph' />
+<br>
+			<img src='../assets/js-hashset/js-search-times-hashset-array.png'  style='border:1px solid black;margin:30px' alt='js hash-set search demo screenshot'  />
 	
 		</div>
 			 
@@ -134,7 +177,7 @@
   				<h2> Download</h2>
 				
 	   				<p class='center-justified'>
-	   			 PHPWee is open source software with a permissive BSD license. You can use it n both free and commercial project at no cost, and can modify and update the code in agreement with the simple, plain english license terms. <a href='../downloads/community/phpwee.zip'> Download PHPWee</a>.
+	   			 JS HashSet is open source software with a permissive BSD license. You can use it in both free and commercial project for free, and can modify and update the code in agreement with the simple, plain english license terms. <a href='../downloads/community/js-hashset.zip'> Download JS HashSet</a>.
 	   		 </p>
 			 
 	   	 
